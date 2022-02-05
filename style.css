@@ -1,17 +1,32 @@
-.container{
-    
-     border: 5px solid brown;
-   display: flex;
-   
+html  body{
+  box-sizing: border-box;
+  background-color: burlywood;
+}
+.container >div{
+  border:1px solid brown;
+ display:flex;
+ 
+ align-items:center;
+ justify-content:center;
+}
 
+.search{
+  background-color: red;
 }
+.logout{
+  background-color: blue;
+}
+.home{
+  background-color: blueviolet;
+}
+/* if you want to display the item in  center both on main axis and cross axis  then 
+just do it like this
 .container{
- flex:1;
-}
-.container > .search{
-flex:2;
-}
-/* just keep in your mind the .search{flex:2 will be less specific than .container > .search so use > for child selection} */
-
+  border:1px solid brown;
+ display:flex;
+ 
+ align-items:center;
+ justify-content:center;
+} */
      
 
