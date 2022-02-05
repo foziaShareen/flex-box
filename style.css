@@ -5,15 +5,13 @@
    
 
 }
-.logout{
-  margin-left:auto;
-  /* it will push the logout to the right */
+.container{
+ flex:1;
 }
-.search{
-  /* margin-left:auto;
-  it will push the logout and search both to the border-right-style: ; */
+.container > .search{
+flex:2;
 }
-
+/* just keep in your mind the .search{flex:2 will be less specific than .container > .search so use > for child selection} */
 
      
 
