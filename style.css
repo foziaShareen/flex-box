@@ -2,11 +2,18 @@
     
      border: 5px solid brown;
    display: flex;
-   /* flex-direction:row; */
-   /* flex-direction:column; */
-   justify-content: space-around;
+   
 
 }
+.logout{
+  margin-left:auto;
+  /* it will push the logout to the right */
+}
+.search{
+  /* margin-left:auto;
+  it will push the logout and search both to the border-right-style: ; */
+}
+
 
      
 
